@@ -1,0 +1,56 @@
+[
+  {
+    "web": [
+      {
+        "navegador": "Edge",
+        "ruta_driver": "C:/Users/Andres/Downloads/edgedriver_win64/msedgedriver.exe",
+        "pagina_web": "https://www.carrod.mx/"
+      }
+    ]
+  },
+  {
+    "tabla": [
+      {
+        "x": "articulo",
+        "y": "precio",
+        "kind": "scatter",
+        "nombre_csv": "data.csv"
+      }
+    ]
+  },
+  {
+    "siguientePagina": [
+      {
+        "pagina_actual": "//ul[@class='pagination-custom']/li[@class='active']/span",
+        "pagina_siguiente": "//ul[@class='pagination-custom']/li/a",
+        "path": "XPATH"
+      }
+    ]
+  },
+  {
+    "escribirInput": [
+      {
+        "path": "CLASS_NAME",
+        "valor": "input-group-field",
+        "texto": "arduino"
+      }
+    ]
+  },
+  {
+    "obtenerDatosTabla": [
+      {
+        "th": "//div[@class='col-md-12']/div/div/h4",
+        "td": "//div[@class='col-md-12']/div/div/h5",
+        "path": "XPATH"
+      }
+    ]
+  },
+  {
+    "navegarPagina": [
+      {
+        "path": "TAG_NAME",
+        "valor": "html"
+      }
+    ]
+  }
+]
